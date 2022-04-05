@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-auto-rows: minmax(5px, auto);
+    grid-template-areas: "header" "main_content" "footer";
+    height: 100vh;
+    background-color: aqua;
+}
+
+header{
+    grid-area: header;
+    background-color: thistle;
+    font: large;
+    font-family: cursive;
+}
+
+#footer{
+    grid-area: footer;
+}
+
+.main{
+    display: grid;
+    grid-area: main_content;
+    grid-template-areas: "mappanel" "content";
+}
+
+#map{
+    height:80vh;
+    grid-area: mappanel;
+}
+
+#contents{
+    grid-area: content;
+}
+
