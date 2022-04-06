@@ -12,12 +12,7 @@ body{
     
 }
 
-/* header{
-    grid-area: header;
-    background-color: thistle;
-    font: large;
-    font-family: cursive;
-} */
+
 
 #footer{
     grid-area: footer;
@@ -49,12 +44,4 @@ img {
   }
 
 
-h1 {
-    font-size:75px;
-}
 
-p {
-    text-align: center;
-    margin-left: 2in;
-    margin-right: 2in;
-}

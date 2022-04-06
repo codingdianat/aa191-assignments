@@ -9,12 +9,6 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
-/* header{
-    grid-area: header;
-    background-color: thistle;
-    font: large;
-    font-family: cursive;
-} */
 
 #footer{
     grid-area: footer;
@@ -35,9 +29,15 @@ body{
 #contents{
     grid-area: content;
 }
-
-p {
-    text-align: center;
+ul {
     margin-left: 2in;
-    margin-right: 2in;
+    padding-left: 2in;
+}
+
+ol {
+    margin-left: 2in;
+    padding-left: 2in;
+}
+li {
+    margin-left: 1em;
 }
