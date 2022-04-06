@@ -1,15 +1,12 @@
 body{
     text-align: center;
- 
     display: grid;
     grid-template-columns: 1fr; 
     grid-auto-rows: minmax(5px, auto);
     grid-template-areas: "header" "main_content" "footer";
     height: 50vh;
-    background-color: lightcyan;
+    background-color: rgb(179, 126, 113);
     font-family:Verdana, Geneva, Tahoma, sans-serif
-    
-    
 }
 
 /* header{
@@ -37,20 +34,6 @@ body{
 
 #contents{
     grid-area: content;
-}
-
-img {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 350px;
-    width: 335px;
-  }
-
-
-h1 {
-    font-size:75px;
 }
 
 p {
