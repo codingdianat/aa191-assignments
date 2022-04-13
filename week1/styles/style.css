@@ -19,29 +19,28 @@ body{
 }
 
 .main{
-    display: grid;
+
     grid-area: main_content;
-    grid-template-areas: "mappanel" "content";
+    grid-template-areas: "content" "main_map";
+    display: grid;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
-#map{
-    height:80vh;
-    grid-area: mappanel;
-}
 
 #contents{
     grid-area: content;
 }
 
-img {
+img:only-of-type {
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 350px;
-    width: 335px;
+    height: 300px;
+    width: 250px;
   }
 
-
-
+#the_map{
+    height:80vh;
+    grid-area: main_map;
+}
