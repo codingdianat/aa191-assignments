@@ -10,6 +10,11 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
+
+
+let img1 = '<center><img src = Century.jpeg  /> </center>'
+let img2 = '<center><img src = Theater.png  /> </center>'
+// create a function to add markers
 var myIcon = L.icon({
     iconUrl: 'point.png',
     iconSize: [40, 35],
@@ -19,10 +24,6 @@ var myIcon = L.icon({
     shadowSize: [68, 95],
     shadowAnchor: [22, 94]
 });
-
-let img1 = '<center><img src = Century.jpeg  /> </center>'
-let img2 = '<center><img src = Theater.png  /> </center>'
-// create a function to add markers
 function addMarker(lat,lng,title,message, img){
     console.log(message)
     L.marker([lat,lng], {icon: myIcon}).addTo(map).bindPopup(`<h2>${title}</h2> <h3>${message}</h3>` + img )
