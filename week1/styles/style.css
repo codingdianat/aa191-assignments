@@ -6,9 +6,8 @@ body{
     grid-auto-rows: minmax(5px, auto);
     grid-template-areas: "header" "main_content" "footer";
     height: 50vh;
-    background-color: lightcyan;
+    background-color:thistle; 
     font-family:Verdana, Geneva, Tahoma, sans-serif
-    
     
 }
 
@@ -31,12 +30,13 @@ body{
     grid-area: content;
 }
 
+
 img:only-of-type {
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
+    height: 210px;
     width: 250px;
   }
 
